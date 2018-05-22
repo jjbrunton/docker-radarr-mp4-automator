@@ -1,4 +1,4 @@
-FROM linuxserver/radarr
+FROM linuxserver/radarr:develop
 
 RUN \
   apt-get update && \
